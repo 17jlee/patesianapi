@@ -1,0 +1,14 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+GET http://localhost:3000/subscribers/65a005f7258f2964c4ef5e87
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Amazing",
+    "subscribedToChannel": "lmao"
+}
