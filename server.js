@@ -16,4 +16,3 @@ app.use('/subscribers', subscribersRouter)
 
 
 app.listen(3000, () => console.log('server started')) 
-
