@@ -1,16 +1,18 @@
-GET http://localhost:3000/subscribers/
+GET http://localhost:3000/posts/
 
 ###
 
-GET http://localhost:3000/subscribers/65a002457b21604e6a4be221
+GET http://localhost:3000/posts/65a50ecc31c2d8f4c158e3d8
 
 ###
-POST http://localhost:3000/subscribers
+POST http://localhost:3000/posts
 Content-Type: application/json
 
 {
-    "name" : "Amazing",
-    "subscribedToChannel": "lmao"
+    "user" : "Jimin2",
+    "title": "bruh2d",
+    "content": "huh2",
+    "group" : "computing scoiety"
 }
 
 ###

@@ -1,33 +1,35 @@
 const express = require('express')
 const router = express.Router()
-const Subscriber = require('../models/subscriber')
+const Post = require('../models/post')
 
 //Get all
 router.get('/', async (req,res) => {
     try {
-        const subscribers = await Subscriber.find()
-        res.json(subscribers)
+        const posts = await Post.find()
+        res.json(posts)
     } catch(err) {
         res.status(500).json({message: err.message})
     }
 })
 
 //Getting one 
-router.get('/:id', getSubscriber, (req,res) => {
-    res.send(res.subscriber.name)
+router.get('/:id', getPost, (req,res) => {
+    res.send(res.post.title)
     
 })
 
 //Creating One
 router.post('/', async (req,res) => {
-    const subscriber = new Subscriber({
-        name: req.body.name,
-        subscribedToChannel: req.body.subscribedToChannel
+    const post = new Post({
+        user: req.body.user,
+        title: req.body.title,
+        content: req.body.content,
+        group: req.body.group
     }) 
 
     try {
-        const newSubscriber = await subscriber.save()
-        res.status(201).json(newSubscriber)
+        const newPost = await post.save()
+        res.status(201).json(newPost)
     } catch (err) {
         res.status(400).json({message: err.message})
 
@@ -35,7 +37,7 @@ router.post('/', async (req,res) => {
 })
 
 //Updating One
-router.patch('/:id', getSubscriber, async(req,res) => {
+router.patch('/:id', getPost, async(req,res) => {
     if (req.body.name != null) {
         res.subscriber.name = req.body.name
     }   
@@ -52,10 +54,10 @@ router.patch('/:id', getSubscriber, async(req,res) => {
 }})
 
 //Deleting One
-router.delete('/:id', getSubscriber, async(req,res) => {
+router.delete('/:id', getPost, async(req,res) => {
     try {
-        await res.subscriber.deleteOne()
-        res.json({message: 'Deleted Subscriber'})
+        await res.post.deleteOne()
+        res.json({message: 'Deleted post'})
     } catch (err) {
         res.status(500).json({message: err.message})
 
@@ -63,11 +65,11 @@ router.delete('/:id', getSubscriber, async(req,res) => {
     
 })
 
-async function getSubscriber(req, res, next) {
-    let subscriber  
+async function getPost(req, res, next) {
+    let post  
     try {
-        subscriber = await Subscriber.findById(req.params.id)
-        if (subscriber == null) {
+        post = await Post.findById(req.params.id)
+        if (post == null) {
             return res.status(404).json({message: "Cannot find subscriber"})
 
         }
@@ -75,7 +77,7 @@ async function getSubscriber(req, res, next) {
         return res.status(500).json({message: err.message})
     }
 
-    res.subscriber = subscriber 
+    res.post = post 
     next()
 }
 
