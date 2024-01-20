@@ -17,16 +17,17 @@ const postSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    image: {
-        type: Buffer,
-        required: false
-    },
     date: {
         type: Date,
         required: true,
         default: Date.now
 
+    },
+    image: {
+        type: String,
+        required: false
     }
+    
 })
 
 

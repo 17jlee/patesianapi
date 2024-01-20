@@ -15,4 +15,5 @@ const subscribersRouter = require('./routes/posts.js')
 app.use('/posts', subscribersRouter)
 
 
+
 app.listen(3000, () => console.log('server started')) 
