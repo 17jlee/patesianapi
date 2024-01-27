@@ -6,10 +6,15 @@ const eventSchema = new mongoose.Schema({
       required: true,
     },
 
-    bodyPreview: {
+    teacher: {
       type: String,
       required: true,
     },
+
+    location: {
+        type: String,
+        required: true,
+      },
 
     start: {
         type: Date,
@@ -19,15 +24,19 @@ const eventSchema = new mongoose.Schema({
     end: {
         type: Date,
         required: true,
-    },
-
-    location: {
-        type: String,
-        required: true,
-      }
+    }
   });
 
 const timetableSchema = new mongoose.Schema({
+    user: {
+        type: String,
+        required: true
+    },
+    date: {
+        type: Date,
+        required: true,
+        default: Date.now
+    },
     data: {
         type: [eventSchema],
         required: true

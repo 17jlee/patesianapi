@@ -13,7 +13,7 @@ router.get('/', async (req,res) => {
 })
 
 //Getting one 
-router.get('/:id', getSubscriber, (req,res) => {
+router.get('/:id', getTimetable, (req,res) => {
     res.send(res.timetable.data)
     
 })
@@ -21,6 +21,7 @@ router.get('/:id', getSubscriber, (req,res) => {
 //Creating One
 router.post('/', async (req,res) => {
     const subscriber = new Timetable({
+        user: req.body.user,
         data: req.body.value
     }) 
     console.log(req.body.value)
@@ -44,7 +45,7 @@ router.patch('/:id', (req,res) => {
     
 })
 
-async function getSubscriber(req, res, next) {
+async function getTimetable(req, res, next) {
     let subscriber  
     try {
         subscriber = await Timetable.findById(req.params.id)

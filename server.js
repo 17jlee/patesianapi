@@ -11,9 +11,11 @@ db.once('open', () => console.log('connected to database'))
 
 app.use(express.json())
 
-const subscribersRouter = require('./routes/timetables.js')
-app.use('/posts', subscribersRouter)
+const postsRouter = require('./routes/posts.js')
+app.use('/posts', postsRouter)
 
+const timetableRouter = require('./routes/timetables.js')
+app.use('/timetables', timetableRouter)
 
 
 app.listen(3000, () => console.log('server started')) 
