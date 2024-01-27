@@ -11,7 +11,7 @@ db.once('open', () => console.log('connected to database'))
 
 app.use(express.json())
 
-const subscribersRouter = require('./routes/posts.js')
+const subscribersRouter = require('./routes/timetables.js')
 app.use('/posts', subscribersRouter)
 
 

@@ -1,49 +1,8 @@
 {
-    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ae6a1b88-32b7-4c64-a3f3-322b99fb11ca')/calendarView",
     "value": [
         {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0Wg==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTFgAAAA==",
-            "createdDateTime": "2023-10-23T05:31:15.9594491Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:17.6491598Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0Wg==",
-            "categories": [
-                "Computing"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E008000000003CF19B247205DA01000000000000000010000000EBDA2C8295C1C3409661D01E2EF087F9",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
             "subject": "Computing - TRE",
             "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTFgAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Computing :13-1/Co1. Generated from Sims.net.</body></html>"
-            },
             "start": {
                 "dateTime": "2024-01-15T09:00:00.0000000",
                 "timeZone": "UTC"
@@ -57,700 +16,84 @@
                 "locationType": "default",
                 "uniqueId": "Cyber Hub - Computing",
                 "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "Cyber Hub - Computing",
-                    "locationType": "default",
-                    "uniqueId": "Cyber Hub - Computing",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
+            }
         },
         {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0XQ==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTEwAAAA==",
-            "createdDateTime": "2023-10-23T05:31:15.9670308Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:17.7137584Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0XQ==",
-            "categories": [
-                "Physics"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000AF539E247205DA01000000000000000010000000EB0C77FDF21FFE43BAEEBB37A4E7BC9B",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Physics - LGO",
-            "bodyPreview": "Physics :13-3/P1. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTEwAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Physics :13-3/P1. Generated from Sims.net.</body></html>"
-            },
+            "subject": "Physics - TRE",
+            "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
             "start": {
-                "dateTime": "2024-01-15T11:35:00.0000000",
+                "dateTime": "2024-01-15T09:00:00.0000000",
                 "timeZone": "UTC"
             },
             "end": {
-                "dateTime": "2024-01-15T12:35:00.0000000",
+                "dateTime": "2024-01-15T10:00:00.0000000",
                 "timeZone": "UTC"
             },
             "location": {
-                "displayName": "B102 - Physics",
+                "displayName": "Cyber Hub - Computing",
                 "locationType": "default",
-                "uniqueId": "B102 - Physics",
+                "uniqueId": "Cyber Hub - Computing",
                 "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "B102 - Physics",
-                    "locationType": "default",
-                    "uniqueId": "B102 - Physics",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
+            }
         },
         {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0WA==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTFQAAAA==",
-            "createdDateTime": "2023-10-23T05:31:15.9751991Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:17.5950833Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0WA==",
-            "categories": [
-                "Mathematics"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000AF539E247205DA010000000000000000100000000EB2E34ACDDC8D43AC957869A69F66AE",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Mathematics - ADE",
-            "bodyPreview": "Mathematics :13-4/M5. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTFQAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Mathematics :13-4/M5. Generated from Sims.net.</body></html>"
-            },
+            "subject": "Science - TRE",
+            "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
             "start": {
-                "dateTime": "2024-01-15T12:40:00.0000000",
+                "dateTime": "2024-01-15T09:00:00.0000000",
                 "timeZone": "UTC"
             },
             "end": {
-                "dateTime": "2024-01-15T13:40:00.0000000",
+                "dateTime": "2024-01-15T10:00:00.0000000",
                 "timeZone": "UTC"
             },
             "location": {
-                "displayName": "C104 - Maths",
+                "displayName": "Cyber Hub - Computing",
                 "locationType": "default",
-                "uniqueId": "C104 - Maths",
+                "uniqueId": "Cyber Hub - Computing",
                 "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "C104 - Maths",
-                    "locationType": "default",
-                    "uniqueId": "C104 - Maths",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
-        },
+            }
+        }
+       
+    ]
+}
+
+{
+    "value": [
         {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0cg==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGQAAAA==",
-            "createdDateTime": "2023-10-23T05:31:17.1515143Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:18.5525277Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0cg==",
-            "categories": [
-                "Mathematics"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000008C53257205DA0100000000000000001000000022E2E0D473E4574AA99241AE02F329F9",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Mathematics - ASA",
-            "bodyPreview": "Mathematics :13-4/M5. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGQAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Mathematics :13-4/M5. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-15T14:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-15T15:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "D102 - Maths",
-                "locationType": "default",
-                "uniqueId": "D102 - Maths",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "D102 - Maths",
-                    "locationType": "default",
-                    "uniqueId": "D102 - Maths",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
-        },
-        {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0cw==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTFwAAAA==",
-            "createdDateTime": "2023-10-23T05:31:17.1344201Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:18.6167189Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0cw==",
-            "categories": [
-                "Form Tutor"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000AB2951257205DA01000000000000000010000000639B3367381BE546BC598C6B8EE5195A",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Form Tutor - CSE",
-            "bodyPreview": "Form Tutor :13-Y1/Ft1. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTFwAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Form Tutor :13-Y1/Ft1. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-16T08:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-16T08:55:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "B207 - Biology",
-                "locationType": "default",
-                "uniqueId": "B207 - Biology",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "B207 - Biology",
-                    "locationType": "default",
-                    "uniqueId": "B207 - Biology",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
-        },
-        {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0bw==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGAAAAA==",
-            "createdDateTime": "2023-10-23T05:31:17.1410829Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:18.4597189Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0bw==",
-            "categories": [
-                "Mathematics"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000AB2951257205DA010000000000000000100000003A694CE44F11F748A9E5CA030AB88CF2",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Mathematics - ADE",
-            "bodyPreview": "Mathematics :13-4/M5. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGAAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Mathematics :13-4/M5. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-16T09:00:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-16T10:00:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "C104 - Maths",
-                "locationType": "default",
-                "uniqueId": "C104 - Maths",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "C104 - Maths",
-                    "locationType": "default",
-                    "uniqueId": "C104 - Maths",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
-        },
-        {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0dA==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGgAAAA==",
-            "createdDateTime": "2023-10-23T05:31:17.1515147Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:18.669033Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0dA==",
-            "categories": [
-                "Computing"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000008C53257205DA0100000000000000001000000021C7DAD5B6075F47BE02D8D4DABBAF5D",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
             "subject": "Computing - TRE",
             "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGgAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Computing :13-1/Co1. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-16T10:05:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-16T11:05:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "E109 - Computing",
-                "locationType": "default",
-                "uniqueId": "E109 - Computing",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "E109 - Computing",
-                    "locationType": "default",
-                    "uniqueId": "E109 - Computing",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
+            "start": "2024-01-15T09:00:00.0000000",
+            "end": "2024-01-15T09:00:00.0000000",
+            "location": "Cyber Hub - Computing"
         },
         {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0dw==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGwAAAA==",
-            "createdDateTime": "2023-10-23T05:31:18.0130068Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:19.4481568Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0dw==",
-            "categories": [
-                "Physics"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E0080000000021B1D6257205DA01000000000000000010000000EE24767CE416944EB97B9D3DA0994B34",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Physics - RGI",
-            "bodyPreview": "Physics :13-3/P1. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTGwAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Physics :13-3/P1. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-16T12:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-16T13:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "B102 - Physics",
-                "locationType": "default",
-                "uniqueId": "B102 - Physics",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "B102 - Physics",
-                    "locationType": "default",
-                    "uniqueId": "B102 - Physics",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
+            "subject": "Physics - TRE",
+            "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
+            "start": "2024-01-15T09:00:00.0000000",
+            "end": "2024-01-15T09:00:00.0000000",
+            "location": "Cyber Hub - Computing"
         },
         {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0U0eA==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTHAAAAA==",
-            "createdDateTime": "2023-10-23T05:31:18.0130818Z",
-            "lastModifiedDateTime": "2023-10-23T05:31:19.5132461Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0U0eA==",
-            "categories": [
-                "Mathematics"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E0080000000021B1D6257205DA010000000000000000100000007CABDE3ECFF2864F8FE5EC771F76485E",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Mathematics - GWA",
-            "bodyPreview": "Mathematics :13-4/M5. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTHAAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Mathematics :13-4/M5. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-16T14:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-16T15:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "C103 - Maths",
-                "locationType": "default",
-                "uniqueId": "C103 - Maths",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "C103 - Maths",
-                    "locationType": "default",
-                    "uniqueId": "C103 - Maths",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
-        },
-        {
-            "@odata.etag": "W/\"gle1g3ZEEUSVaToOheQKtAABE0V8jQ==\"",
-            "id": "AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL_CHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTHQAAAA==",
-            "createdDateTime": "2023-10-24T05:20:51.9680772Z",
-            "lastModifiedDateTime": "2023-10-24T05:20:53.115848Z",
-            "changeKey": "gle1g3ZEEUSVaToOheQKtAABE0V8jQ==",
-            "categories": [
-                "Form Tutor"
-            ],
-            "transactionId": null,
-            "originalStartTimeZone": "UTC",
-            "originalEndTimeZone": "UTC",
-            "iCalUId": "040000008200E00074C5B7101A82E00800000000542E19DB3906DA010000000000000000100000001E93A0FDEE9C9E43B57C44EAD38690BC",
-            "reminderMinutesBeforeStart": 15,
-            "isReminderOn": false,
-            "hasAttachments": false,
-            "subject": "Form Tutor - JBA",
-            "bodyPreview": "Form Tutor :13-Y1/Ft1. Generated from Sims.net.",
-            "importance": "normal",
-            "sensitivity": "normal",
-            "isAllDay": false,
-            "isCancelled": false,
-            "isOrganizer": true,
-            "responseRequested": true,
-            "seriesMasterId": null,
-            "showAs": "busy",
-            "type": "singleInstance",
-            "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADZhNjhmZDdhLTY0MzktNDViNi04YTllLTc5NGI3ODZkMDc3AQBGAAADXDsaCNHvuUupF2rL%2BCHgMQcAgle1g3ZEEUSVaToOheQKtAAAAgENAAAAgle1g3ZEEUSVaToOheQKtAABE1yTHQAAAA%3D%3D&exvsurl=1&path=/calendar/item",
-            "onlineMeetingUrl": null,
-            "isOnlineMeeting": false,
-            "onlineMeetingProvider": "unknown",
-            "allowNewTimeProposals": true,
-            "occurrenceId": null,
-            "isDraft": false,
-            "hideAttendees": false,
-            "responseStatus": {
-                "response": "organizer",
-                "time": "0001-01-01T00:00:00Z"
-            },
-            "body": {
-                "contentType": "html",
-                "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>Form Tutor :13-Y1/Ft1. Generated from Sims.net.</body></html>"
-            },
-            "start": {
-                "dateTime": "2024-01-17T08:40:00.0000000",
-                "timeZone": "UTC"
-            },
-            "end": {
-                "dateTime": "2024-01-17T08:55:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "B207 - Biology",
-                "locationType": "default",
-                "uniqueId": "B207 - Biology",
-                "uniqueIdType": "private"
-            },
-            "locations": [
-                {
-                    "displayName": "B207 - Biology",
-                    "locationType": "default",
-                    "uniqueId": "B207 - Biology",
-                    "uniqueIdType": "private"
-                }
-            ],
-            "recurrence": null,
-            "attendees": [],
-            "organizer": {
-                "emailAddress": {
-                    "name": "Jimin Lee",
-                    "address": "17JLee@patesgs.org"
-                }
-            },
-            "onlineMeeting": null
+            "subject": "Science - TRE",
+            "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
+            "start": "2024-01-15T09:00:00.0000000",
+            "end": "2024-01-15T09:00:00.0000000",
+            "location": "Cyber Hub - Computing"
         }
-    ],
-    "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/calendarView?startdatetime=2024-01-15T09%3a43%3a27.892Z&enddatetime=2024-01-22T09%3a43%3a27.892Z&%24top=10&%24skip=10"
+       
+    ]
+}
+
+{
+    "value": [
+        {
+            "subject": "Computing - TRE",
+            "bodyPreview": "Computing :13-1/Co1. Generated from Sims.net.",
+            "start": 1706395912,
+            "end": 1706395912,
+            "location": "Cyber Hub - Computing"
+        }
+       
+    ]
 }
