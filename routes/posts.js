@@ -115,21 +115,43 @@ router.get('/:id', getPost, (req,res) => {
 router.post('/', upload.single("postimage"), async (req,res) => {
     const file = req.file
 
-    const post = new Post({
-        user: req.body.user,
-        title: req.body.title,
-        content: req.body.content,
-        group: req.body.group,
-        image: file.filename
-    }) 
+    if (!file) {
+        console.log("nofile")
+        const post = new Post({
+            user: req.body.user,
+            title: req.body.title,
+            content: req.body.content,
+            group: req.body.group,
+        }) 
 
-    try {
-        const newPost = await post.save()
-        res.status(201).json(newPost)
-    } catch (err) {
-        res.status(400).json({message: err.message})
-
+        try {
+            const newPost = await post.save()
+            res.status(201).json(newPost)
+        } catch (err) {
+            res.status(400).json({message: err.message})
+    
+        }
     }
+    else {
+        console.log("yes")
+        const post = new Post({
+            user: req.body.user,
+            title: req.body.title,
+            content: req.body.content,
+            group: req.body.group,
+            image: file.filename
+        }) 
+
+        try {
+            const newPost = await post.save()
+            res.status(201).json(newPost)
+        } catch (err) {
+            res.status(400).json({message: err.message})
+    
+        }
+    }
+
+    
 })
 
 //Updating One
