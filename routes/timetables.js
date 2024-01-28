@@ -6,7 +6,7 @@ const Timetable = require('../models/timetable')
 router.get('/', async (req,res) => {
     try {
         const timetables = await Timetable.find()
-        res.json(timetables)
+        res.json({"timetables": timetables})
     } catch(err) {
         res.status(500).json({message: err.message})
     }

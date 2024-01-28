@@ -27,14 +27,15 @@ const storage = new GridFsStorage({
     },
   })
 
-  const upload = multer({ storage })
+  const upload = multer({ storage }) 
 
 
 //Get all
 router.get('/', async (req,res) => {
     try {
         const posts = await Post.find()
-        res.json(posts)
+        //res.json(posts)
+        res.json({"posts": posts})
     } catch(err) {
         res.status(500).json({message: err.message})
     }
