@@ -122,6 +122,7 @@ router.post('/', upload.single("pfpimage"), async (req,res) => {
             name: req.body.name,
             members: req.body.members,
             room: req.body.room,
+            day: req.body.day,
             instagram: req.body.instagram,
             description: req.body.description
         }) 
@@ -140,6 +141,7 @@ router.post('/', upload.single("pfpimage"), async (req,res) => {
             name: req.body.name,
             members: req.body.members,
             room: req.body.room,
+            day: req.body.day,
             instagram: req.body.instagram,
             description: req.body.description,
             image: file.filename

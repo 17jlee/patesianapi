@@ -17,6 +17,10 @@ const groupSchema = new mongoose.Schema({
         type: String,
         required: false
     },
+    day: {
+        type: String,
+        required: true
+    },
     description: {
         type: String,
         required: true
