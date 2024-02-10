@@ -21,6 +21,6 @@ const groupRouter = require('./routes/groups.js')
 app.use('/groups', groupRouter)
 
 const eventRouter = require('./routes/events.js')
-app.use('/event', eventRouter)
+app.use('/events', eventRouter)
 
 app.listen(3000, () => console.log('server started')) 
