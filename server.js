@@ -17,5 +17,7 @@ app.use('/posts', postsRouter)
 const timetableRouter = require('./routes/timetables.js')
 app.use('/timetables', timetableRouter)
 
+const groupRouter = require('./routes/groups.js')
+app.use('/groups', groupRouter)
 
 app.listen(3000, () => console.log('server started')) 

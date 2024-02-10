@@ -9,10 +9,10 @@ POST http://localhost:3000/posts
 Content-Type: application/json
 
 {
-    "user" : "Jimin2",
+    "name" : "Jimin2",n
     "title": "bruh2d",
     "content": "huh2",
-    "group" : "computing scoiety"
+    "subscribedToChannel" : "computing scoiety"
 }
 
 ###
