@@ -27,7 +27,8 @@ router.post('/', async (req,res) => {
         description: req.body.description,
         day: req.body.day,
         startTime: req.body.startTime,
-        endTime: req.body.endTime
+        endTime: req.body.endTime,
+        date: req.body.date
     }) 
     console.log(req.body.value)
 

@@ -17,17 +17,21 @@ const eventSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    date: {
+        type: Date,
+        required: false
+    },
     day: {
         type: [String],
-        required: true
+        required: false
     },
     startTime: {
         type: String,
-        required: true
+        required: false
     },
     endTime: {
         type: String,
-        required: true
+        required: false
     }
     
 })
