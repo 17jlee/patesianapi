@@ -115,6 +115,7 @@ router.get('/:id', getPost, (req,res) => {
 //Creating One
 router.post('/', upload.single("postimage"), async (req,res) => {
     const file = req.file
+    console.log(req)
 
     if (!file) {
         console.log("nofile")
