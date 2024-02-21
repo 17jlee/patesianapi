@@ -107,8 +107,8 @@ try {
 })
 
 //Getting one 
-router.get('/:id', getUser, (req,res) => {
-    res.send(res.post.title)
+router.get('/:username', getUser, (req,res) => {
+    res.json(res.post)
     
 })
 
@@ -175,7 +175,7 @@ router.delete('/:id', getUser, async(req,res) => {
 async function getUser(req, res, next) {
     let post  
     try {
-        post = await User.findById(req.params.id)
+        post = await User.find({username: req.params.username})
         if (post == null) {
             return res.status(404).json({message: "Cannot find post"})
 
