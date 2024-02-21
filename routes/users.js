@@ -108,7 +108,7 @@ try {
 
 //Getting one 
 router.get('/:username', getUser, (req,res) => {
-    res.json(res.post)
+    res.json({"users": res.post})
     
 })
 
