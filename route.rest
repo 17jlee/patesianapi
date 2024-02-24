@@ -9,14 +9,14 @@ POST http://localhost:3000/posts
 Content-Type: application/json
 
 {
-    "name" : "Jimin2",n
+    "name" : "Jimin2",
     "title": "bruh2d",
     "content": "huh2",
     "subscribedToChannel" : "computing scoiety"
 }
 
 ###
-PATCH http://localhost:3000/subscribers/65a002457b21604e6a4be221
+PATCH http://localhost:3000/users/17jlee
 Content-Type: application/json
 
 {

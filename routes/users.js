@@ -108,7 +108,7 @@ try {
 
 //Getting one 
 router.get('/:username', getUser, (req,res) => {
-    res.json({"users": res.post})
+    res.json({"users": res.user})
     
 })
 
@@ -144,25 +144,19 @@ router.post('/', upload.single("pfpimage"), async (req,res) => {
 })
 
 //Updating One
-// PATCH route to update user information
 router.patch('/:username', getUser, async (req, res) => {
-    if (req.body.username) {
-        res.status(400).json({ message: "Cannot update username using PATCH method" });
-        return;
+    if (req.body.requestsFrom != null) {
+        res.user.requestsFrom = req.body.requestsFrom
     }
-
-    // Update user properties based on the request body
-    if (req.body.requestsFrom) {
-        res.user.requestsFrom = req.body.requestsFrom;
+    if (req.body.subscribedGroups != null) {
+        res.user.subscribedGroups = req.body.subscribedGroups
     }
-    if (req.body.subscribedGroups) {
-        res.user.subscribedGroups = req.body.subscribedGroups;
+    if (req.body.friends != null) {
+        res.user.friends = req.body.friends
     }
-    if (req.body.friends) {
-        res.user.friends = req.body.friends;
-    }
+    console.log(req.body.name)
     // Add more properties to update as needed
-
+    console.log(res.user);
     try {
         const updatedUser = await res.user.save();
         res.json(updatedUser);
@@ -185,19 +179,21 @@ router.delete('/:id', getUser, async(req,res) => {
 })
 
 async function getUser(req, res, next) {
-    let post  
+    let user  
     try {
-        post = await User.find({username: req.params.username})
-        if (post == null) {
-            return res.status(404).json({message: "Cannot find post"})
+        user = await User.find({username: req.params.username})
+        console.log(user.count)
+        if (user == null) {
+            return res.status(404).json({message: "Cannot find user"})
 
         }
     } catch (err) {
         return res.status(500).json({message: err.message})
     }
 
-    res.post = post 
+    res.user = user[0] 
     next()
 }
+
 
 module.exports = router
