@@ -144,21 +144,33 @@ router.post('/', upload.single("pfpimage"), async (req,res) => {
 })
 
 //Updating One
-router.patch('/:id', getUser, async(req,res) => {
-    if (req.body.name != null) {
-        res.subscriber.name = req.body.name
-    }   
-    if (req.body.subscribedToChannel != null) {
-        res.subscriber.subscribedToChannel = req.body.subscribedToChannel
+// PATCH route to update user information
+router.patch('/:username', getUser, async (req, res) => {
+    if (req.body.username) {
+        res.status(400).json({ message: "Cannot update username using PATCH method" });
+        return;
     }
+
+    // Update user properties based on the request body
+    if (req.body.requestsFrom) {
+        res.user.requestsFrom = req.body.requestsFrom;
+    }
+    if (req.body.subscribedGroups) {
+        res.user.subscribedGroups = req.body.subscribedGroups;
+    }
+    if (req.body.friends) {
+        res.user.friends = req.body.friends;
+    }
+    // Add more properties to update as needed
+
     try {
-        const updatedSubscriber = await res.subscriber.save()
-        res.json(updatedSubscriber)
-    
+        const updatedUser = await res.user.save();
+        res.json(updatedUser);
     } catch (err) {
-        res.status(400).json({message: err.message})
-        
-}})
+        res.status(400).json({ message: err.message });
+    }
+});
+
 
 //Deleting One
 router.delete('/:id', getUser, async(req,res) => {
