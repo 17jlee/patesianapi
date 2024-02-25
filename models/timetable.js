@@ -3,34 +3,34 @@ const mongoose = require('mongoose')
 const eventSchema = new mongoose.Schema({
     subject: {
       type: String,
-      required: true,
+      required: false,
     },
 
     teacher: {
       type: String,
-      required: true,
+      required: false,
     },
 
     location: {
         type: String,
-        required: true,
+        required: false,
       },
 
     start: {
         type: Date,
-        required: true,
+        required: false,
       },
 
     end: {
         type: Date,
-        required: true,
+        required: false,
     }
   });
 
 const timetableSchema = new mongoose.Schema({
     user: {
         type: String,
-        required: true
+        required: false
     },
     date: {
         type: Date,
