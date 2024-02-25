@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Timetable = require('../models/timetable')
+const User = require('../models/user')
 
 //Get all
 router.get('/', async (req,res) => {
@@ -13,16 +14,17 @@ router.get('/', async (req,res) => {
 })
 
 //Getting one 
-router.get('/:id', getTimetable, (req,res) => {
-    res.send(res.timetable.data)
-    
+router.get('/:username', getTimetable, (req,res) => {
+    console.log(res.timetable)
+    res.send(res.timetable[res.timetable.length - 1]);
+
 })
 
 //Creating One
 router.post('/', async (req,res) => {
     const subscriber = new Timetable({
         user: req.body.user,
-        data: req.body.value
+        data: req.body.data
     }) 
     console.log(req.body.value)
 
@@ -46,10 +48,10 @@ router.patch('/:id', (req,res) => {
 })
 
 async function getTimetable(req, res, next) {
-    let subscriber  
+    let timetable  
     try {
-        subscriber = await Timetable.findById(req.params.id)
-        if (subscriber == null) {
+        timetable = await Timetable.find({user: req.params.username})
+        if (timetable == null) {
             return res.status(404).json({message: "Cannot find subscriber"})
 
         }
@@ -57,7 +59,7 @@ async function getTimetable(req, res, next) {
         return res.status(500).json({message: err.message})
     }
 
-    res.subscriber = subscriber 
+    res.timetable = timetable 
     next()
 }
 
